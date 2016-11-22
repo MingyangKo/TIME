@@ -370,7 +370,7 @@ nav li{
   width: 310px;
   height: 72px;
   float: none;
-  margin: 1px;
+  border: 1px solid white;
 }
 nav a{
   margin: 0;
