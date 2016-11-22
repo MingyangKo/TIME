@@ -46,6 +46,10 @@ body{
   margin-top: 0;
 }
 
+a{
+  text-decoration:none;
+}
+
 header{
   color: #FFFFFF;
   background-color: #FF0000;
@@ -59,6 +63,9 @@ header{
   display: block;
   margin-right: 49px;
   padding-top: 29px;
+}
+.login p{
+  color: #FFFFFF;
 }
 
 span{
@@ -84,12 +91,13 @@ li{
   float: left;
 }
 .nbur li{
+  color: white;
   font-size: 36px;
 }
-.nbur li:nth-child(1){padding-left: 40px;}
-.nbur li:nth-child(2){padding-left: 53px;}
+.nbur li:nth-child(1){margin-left: 20px;padding-left: 20px;padding-right: 20px}
+.nbur li:nth-child(2){margin-left: 6.5px;padding-left: 26.5px;padding-right: 26.5px;}
 .nbur li:nth-child(3){
-  padding-left: 43px;
+  margin-left:-5px; padding-left: 21.5px;padding-right: 21.5px;
   /*padding-right: 129px;*/
 }
 
@@ -143,6 +151,7 @@ header p{
   border-radius: 10px;
   border: solid 3px #FF0000;
   float: right;
+  position: relative;;
 }
 .banner img{
   margin-top: -25px;
@@ -298,10 +307,10 @@ header p{
   font-family: Square721BT Roman;
   color: black;
 
-  padding-top: 45px;
-  padding-right: 35px;
-  padding-left: 10px;
-  padding-bottom: 45px;
+  margin-top: 45px;
+  margin-right: 35px;
+  margin-left: 10px;
+  margin-bottom: 45px;
 }
 .footnav ul{
 padding-left: 39px;
@@ -312,9 +321,8 @@ footer{
   font-family: Corbel Regular;
   color: white;
 }
-footer :nth-child(2){
-  margin-left: 569px;
-}
+
+
 footer img{
   float: left;
   margin-right: 20px;
@@ -325,6 +333,8 @@ footer p{
   padding-left: 49px;
   padding-top: 44px;
   padding-bottom: 44px;
+  margin-right: 569px;
+
 
   float: left;
 }
@@ -347,6 +357,7 @@ nav{
 }
 nav li{
   background-color: #d00000;
+  color: white;
   font-size: 48px;
   font-family: FranklinGothic Medium;
   padding-top: 15px;
@@ -355,6 +366,30 @@ nav li{
   float: none;
   border: 1px solid white;
 }
-nav a{
-  margin: 0;
+nav li:hover{
+  background-color: white;
+  color: #d00000;
+}
+span:hover{
+  color: #d00000;
+}
+.nbur li:hover{
+  background-color: white;
+  color: #FF0000;
+}
+
+.login p:hover{
+  color: #d00000;
+}
+
+.more:hover{
+  background-color: #FF0000;
+  color: white;
+}
+.read_more:hover{
+  background-color: #FF0000;
+  color: white;
+}
+.footnav li:hover{
+  color: white;
 }
