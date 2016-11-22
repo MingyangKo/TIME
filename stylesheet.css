@@ -60,23 +60,6 @@ header{
   margin-right: 49px;
   padding-top: 29px;
 }
-.space{
-  margin: 0;
-  padding: 0;
-}
-.space div{
-  margin: 0;
-  padding: 0;
-  float: right;
-  height: 21px;
-}
-.space div:nth-child(1){
-  width: 17px;
-  border-left: solid 1px white;
-}
-.space div:nth-child(2){
-  width: 13px;
-}
 
 span{
   font-size: 52px;
